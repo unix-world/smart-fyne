@@ -1,4 +1,14 @@
-# Changelog
+# Changelog: smart-fyne
+
+## 2.4.2.1 - 18 December 2023
+
+This is a fork of `fyne` v2.4.2@head.20231217 as `smart-fyne` v2.4.2.1.
+Upgraded vendor libs + security.
+Fixes, especially for the type area.
+
+####################################################
+
+# Changelog: fyne
 
 This file lists the main changes with each version of the Fyne toolkit.
 More detailed release notes can be found on the [releases page](https://github.com/fyne-io/fyne/releases). 
