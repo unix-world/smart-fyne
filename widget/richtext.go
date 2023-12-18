@@ -1089,9 +1089,13 @@ func truncateLimit(s string, text *canvas.Text, limit int, ellipsis []rune) (int
 	out := shaper.Shape(in)
 
 	l.Prepare(conf, runes, shaping.NewSliceIterator([]shaping.Output{out}))
-	finalLine, _, done := l.WrapNextLine(limit)
+	finalLine, done := l.WrapNextLine(limit)
 
-	count := finalLine[0].Runes.Count
+//	count := finalLine[0].Runes.Count
+	count := 0
+	if(done && (finalLine.Line != nil)) {
+		count = finalLine.Line[0].Runes.Count
+	}
 	full := done && count == len(runes)
 	if !full && len(ellipsis) > 0 {
 		count--
