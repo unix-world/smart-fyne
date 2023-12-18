@@ -1,10 +1,6 @@
 # Smart.Fyne, a modernized and secure fork of Fyne
 
 <p align="center">
-  <a href="https://pkg.go.dev/fyne.io/fyne/v2?tab=doc" title="Go API Reference" rel="nofollow"><img src="https://img.shields.io/badge/go-documentation-blue.svg?style=flat" alt="Go API Reference"></a>
-  <a href="https://img.shields.io/github/v/release/fyne-io/fyne?include_prereleases" title="Latest Release" rel="nofollow"><img src="https://img.shields.io/github/v/release/fyne-io/fyne?include_prereleases" alt="Latest Release"></a>
-  <a href='https://gophers.slack.com/messages/fyne'><img src='https://img.shields.io/badge/join-us%20on%20slack-gray.svg?longCache=true&logo=slack&colorB=blue' alt='Join us on Slack'></a>
-  <br>
   <a href="https://goreportcard.com/report/fyne.io/fyne/v2"><img src="https://goreportcard.com/badge/fyne.io/fyne/v2" alt="Code Status"></a>
   <a href='https://coveralls.io/github/fyne-io/fyne?branch=develop'><img src='https://coveralls.io/repos/github/fyne-io/fyne/badge.svg?branch=develop' alt='Coverage Status'></a>
 </p>
