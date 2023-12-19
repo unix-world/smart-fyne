@@ -13,7 +13,11 @@ package gl
 import (
 	"strings"
 
+//-- original
 	gl "github.com/go-gl/gl/v3.1/gles2"
+//-- alternates
+//	gl "github.com/go-gl/gl/v3.0/gles2"
+//--
 
 	"fyne.io/fyne/v2"
 )
