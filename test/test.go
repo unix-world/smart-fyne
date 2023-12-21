@@ -9,12 +9,12 @@ import (
 	"testing"
 	"time"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/driver/desktop"
-	"fyne.io/fyne/v2/internal/cache"
-	"fyne.io/fyne/v2/internal/driver"
-	"fyne.io/fyne/v2/internal/painter/software"
-	"fyne.io/fyne/v2/internal/test"
+	"github.com/unix-world/smart-fyne"
+	"github.com/unix-world/smart-fyne/driver/desktop"
+	"github.com/unix-world/smart-fyne/internal/cache"
+	"github.com/unix-world/smart-fyne/internal/driver"
+	"github.com/unix-world/smart-fyne/internal/painter/software"
+	"github.com/unix-world/smart-fyne/internal/test"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

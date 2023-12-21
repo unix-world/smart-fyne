@@ -12,13 +12,13 @@ import (
 	"sync"
 	"syscall"
 
-	"fyne.io/fyne/v2/canvas"
-	"fyne.io/fyne/v2/internal/painter"
-	"fyne.io/fyne/v2/internal/svg"
-	"fyne.io/systray"
+	"github.com/unix-world/smart-fyne/canvas"
+	"github.com/unix-world/smart-fyne/internal/painter"
+	"github.com/unix-world/smart-fyne/internal/svg"
+	"github.com/unix-world/smart-fyne/systray"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/theme"
+	"github.com/unix-world/smart-fyne"
+	"github.com/unix-world/smart-fyne/theme"
 )
 
 var (

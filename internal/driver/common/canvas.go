@@ -6,14 +6,14 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/canvas"
-	"fyne.io/fyne/v2/internal"
-	"fyne.io/fyne/v2/internal/app"
-	"fyne.io/fyne/v2/internal/async"
-	"fyne.io/fyne/v2/internal/cache"
-	"fyne.io/fyne/v2/internal/driver"
-	"fyne.io/fyne/v2/internal/painter/gl"
+	"github.com/unix-world/smart-fyne"
+	"github.com/unix-world/smart-fyne/canvas"
+	"github.com/unix-world/smart-fyne/internal"
+	"github.com/unix-world/smart-fyne/internal/app"
+	"github.com/unix-world/smart-fyne/internal/async"
+	"github.com/unix-world/smart-fyne/internal/cache"
+	"github.com/unix-world/smart-fyne/internal/driver"
+	"github.com/unix-world/smart-fyne/internal/painter/gl"
 )
 
 // SizeableCanvas defines a canvas with size related functions.

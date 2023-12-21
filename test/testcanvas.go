@@ -5,13 +5,13 @@ import (
 	"image/draw"
 	"sync"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/driver/desktop"
-	"fyne.io/fyne/v2/internal"
-	"fyne.io/fyne/v2/internal/app"
-	"fyne.io/fyne/v2/internal/cache"
-	"fyne.io/fyne/v2/internal/scale"
-	"fyne.io/fyne/v2/theme"
+	"github.com/unix-world/smart-fyne"
+	"github.com/unix-world/smart-fyne/driver/desktop"
+	"github.com/unix-world/smart-fyne/internal"
+	"github.com/unix-world/smart-fyne/internal/app"
+	"github.com/unix-world/smart-fyne/internal/cache"
+	"github.com/unix-world/smart-fyne/internal/scale"
+	"github.com/unix-world/smart-fyne/theme"
 )
 
 var (

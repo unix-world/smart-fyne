@@ -3,12 +3,12 @@ package container
 import (
 	"sync"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/canvas"
-	"fyne.io/fyne/v2/driver/desktop"
-	"fyne.io/fyne/v2/internal"
-	"fyne.io/fyne/v2/theme"
-	"fyne.io/fyne/v2/widget"
+	"github.com/unix-world/smart-fyne"
+	"github.com/unix-world/smart-fyne/canvas"
+	"github.com/unix-world/smart-fyne/driver/desktop"
+	"github.com/unix-world/smart-fyne/internal"
+	"github.com/unix-world/smart-fyne/theme"
+	"github.com/unix-world/smart-fyne/widget"
 )
 
 // TabItem represents a single view in a tab view.

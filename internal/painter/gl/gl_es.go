@@ -19,7 +19,7 @@ import (
 //	gl "github.com/go-gl/gl/v3.0/gles2"
 //--
 
-	"fyne.io/fyne/v2"
+	"github.com/unix-world/smart-fyne"
 )
 
 const (

@@ -1,13 +1,13 @@
 package mobile
 
 import (
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/container"
-	"fyne.io/fyne/v2/internal/cache"
-	"fyne.io/fyne/v2/internal/driver/common"
-	"fyne.io/fyne/v2/layout"
-	"fyne.io/fyne/v2/theme"
-	"fyne.io/fyne/v2/widget"
+	"github.com/unix-world/smart-fyne"
+	"github.com/unix-world/smart-fyne/container"
+	"github.com/unix-world/smart-fyne/internal/cache"
+	"github.com/unix-world/smart-fyne/internal/driver/common"
+	"github.com/unix-world/smart-fyne/layout"
+	"github.com/unix-world/smart-fyne/theme"
+	"github.com/unix-world/smart-fyne/widget"
 )
 
 type window struct {

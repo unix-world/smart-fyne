@@ -9,16 +9,16 @@ import (
 	"runtime"
 	"sync"
 
-	"github.com/fyne-io/image/ico"
+	"github.com/unix-world/smart-fyne/image/ico"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/internal/animation"
-	intapp "fyne.io/fyne/v2/internal/app"
-	"fyne.io/fyne/v2/internal/driver"
-	"fyne.io/fyne/v2/internal/driver/common"
-	"fyne.io/fyne/v2/internal/painter"
-	intRepo "fyne.io/fyne/v2/internal/repository"
-	"fyne.io/fyne/v2/storage/repository"
+	"github.com/unix-world/smart-fyne"
+	"github.com/unix-world/smart-fyne/internal/animation"
+	intapp "github.com/unix-world/smart-fyne/internal/app"
+	"github.com/unix-world/smart-fyne/internal/driver"
+	"github.com/unix-world/smart-fyne/internal/driver/common"
+	"github.com/unix-world/smart-fyne/internal/painter"
+	intRepo "github.com/unix-world/smart-fyne/internal/repository"
+	"github.com/unix-world/smart-fyne/storage/repository"
 )
 
 // mainGoroutineID stores the main goroutine ID.

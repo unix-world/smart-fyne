@@ -1,8 +1,8 @@
 package common
 
 import (
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/internal/cache"
+	"github.com/unix-world/smart-fyne"
+	"github.com/unix-world/smart-fyne/internal/cache"
 )
 
 // CanvasForObject returns the canvas for the specified object.

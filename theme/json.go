@@ -8,8 +8,8 @@ import (
 	"io"
 	"strings"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/storage"
+	"github.com/unix-world/smart-fyne"
+	"github.com/unix-world/smart-fyne/storage"
 )
 
 // FromJSON returns a Theme created from the given JSON metadata.

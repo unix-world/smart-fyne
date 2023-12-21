@@ -3,8 +3,8 @@ package internal
 import (
 	"errors"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/storage"
+	"github.com/unix-world/smart-fyne"
+	"github.com/unix-world/smart-fyne/storage"
 )
 
 var errNoAppID = errors.New("storage API requires a unique ID, use app.NewWithID()")

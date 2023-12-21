@@ -7,14 +7,14 @@ import (
 	"io"
 	"log"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/canvas"
-	"fyne.io/fyne/v2/container"
-	"fyne.io/fyne/v2/data/validation"
-	"fyne.io/fyne/v2/dialog"
-	"fyne.io/fyne/v2/storage"
-	"fyne.io/fyne/v2/theme"
-	"fyne.io/fyne/v2/widget"
+	"github.com/unix-world/smart-fyne"
+	"github.com/unix-world/smart-fyne/canvas"
+	"github.com/unix-world/smart-fyne/container"
+	"github.com/unix-world/smart-fyne/data/validation"
+	"github.com/unix-world/smart-fyne/dialog"
+	"github.com/unix-world/smart-fyne/storage"
+	"github.com/unix-world/smart-fyne/theme"
+	"github.com/unix-world/smart-fyne/widget"
 )
 
 func confirmCallback(response bool) {

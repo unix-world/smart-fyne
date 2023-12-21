@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"image"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/internal/driver"
-	"fyne.io/fyne/v2/theme"
+	"github.com/unix-world/smart-fyne"
+	"github.com/unix-world/smart-fyne/internal/driver"
+	"github.com/unix-world/smart-fyne/theme"
 )
 
 func shaderSourceNamed(name string) ([]byte, []byte) {

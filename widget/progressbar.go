@@ -4,13 +4,13 @@ import (
 	"image/color"
 	"strconv"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/canvas"
-	"fyne.io/fyne/v2/data/binding"
-	"fyne.io/fyne/v2/internal/cache"
-	col "fyne.io/fyne/v2/internal/color"
-	"fyne.io/fyne/v2/internal/widget"
-	"fyne.io/fyne/v2/theme"
+	"github.com/unix-world/smart-fyne"
+	"github.com/unix-world/smart-fyne/canvas"
+	"github.com/unix-world/smart-fyne/data/binding"
+	"github.com/unix-world/smart-fyne/internal/cache"
+	col "github.com/unix-world/smart-fyne/internal/color"
+	"github.com/unix-world/smart-fyne/internal/widget"
+	"github.com/unix-world/smart-fyne/theme"
 )
 
 type progressRenderer struct {

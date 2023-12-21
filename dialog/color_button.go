@@ -3,12 +3,12 @@ package dialog
 import (
 	"image/color"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/canvas"
-	"fyne.io/fyne/v2/driver/desktop"
-	internalwidget "fyne.io/fyne/v2/internal/widget"
-	"fyne.io/fyne/v2/theme"
-	"fyne.io/fyne/v2/widget"
+	"github.com/unix-world/smart-fyne"
+	"github.com/unix-world/smart-fyne/canvas"
+	"github.com/unix-world/smart-fyne/driver/desktop"
+	internalwidget "github.com/unix-world/smart-fyne/internal/widget"
+	"github.com/unix-world/smart-fyne/theme"
+	"github.com/unix-world/smart-fyne/widget"
 )
 
 var _ fyne.Widget = (*colorButton)(nil)

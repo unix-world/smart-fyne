@@ -6,7 +6,7 @@ package gl
 import (
 	"encoding/binary"
 
-	"github.com/fyne-io/gl-js"
+	"github.com/unix-world/smart-fyne/gl-js"
 	"golang.org/x/mobile/exp/f32"
 )
 

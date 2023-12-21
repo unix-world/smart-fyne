@@ -4,7 +4,7 @@ import (
 	"sync"
 	"time"
 
-	"fyne.io/fyne/v2"
+	"github.com/unix-world/smart-fyne"
 )
 
 var (

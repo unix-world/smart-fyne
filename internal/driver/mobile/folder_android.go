@@ -19,9 +19,9 @@ import (
 	"strings"
 	"unsafe"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/internal/driver/mobile/app"
-	"fyne.io/fyne/v2/storage"
+	"github.com/unix-world/smart-fyne"
+	"github.com/unix-world/smart-fyne/internal/driver/mobile/app"
+	"github.com/unix-world/smart-fyne/storage"
 )
 
 func canListURI(uri fyne.URI) bool {

@@ -7,9 +7,9 @@
 //
 //	package main
 //
-//	import "fyne.io/fyne/v2/app"
-//	import "fyne.io/fyne/v2/container"
-//	import "fyne.io/fyne/v2/widget"
+//	import "github.com/unix-world/smart-fyne/app"
+//	import "github.com/unix-world/smart-fyne/container"
+//	import "github.com/unix-world/smart-fyne/widget"
 //
 //	func main() {
 //		a := app.New()
@@ -25,4 +25,4 @@
 //
 //		w.ShowAndRun()
 //	}
-package fyne // import "fyne.io/fyne/v2"
+package fyne // import "github.com/unix-world/smart-fyne"

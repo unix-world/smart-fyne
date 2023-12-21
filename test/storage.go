@@ -3,9 +3,9 @@ package test
 import (
 	"os"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/internal"
-	"fyne.io/fyne/v2/storage"
+	"github.com/unix-world/smart-fyne"
+	"github.com/unix-world/smart-fyne/internal"
+	"github.com/unix-world/smart-fyne/storage"
 )
 
 type testStorage struct {

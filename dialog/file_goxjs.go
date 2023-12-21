@@ -4,7 +4,7 @@
 package dialog
 
 import (
-	"fyne.io/fyne/v2"
+	"github.com/unix-world/smart-fyne"
 )
 
 func (f *fileDialog) loadPlaces() []fyne.CanvasObject {

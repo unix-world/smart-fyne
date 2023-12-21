@@ -1,6 +1,6 @@
 package canvas
 
-import "fyne.io/fyne/v2"
+import "github.com/unix-world/smart-fyne"
 
 // Refresh instructs the containing canvas to refresh the specified obj.
 func Refresh(obj fyne.CanvasObject) {

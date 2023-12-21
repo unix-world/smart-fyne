@@ -4,7 +4,7 @@ import (
 	"errors"
 	"reflect"
 
-	"fyne.io/fyne/v2"
+	"github.com/unix-world/smart-fyne"
 )
 
 // DataMap is the base interface for all bindable data maps.

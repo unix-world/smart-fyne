@@ -5,9 +5,9 @@ import (
 	"io"
 	"strings"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/storage"
-	"fyne.io/fyne/v2/storage/repository"
+	"github.com/unix-world/smart-fyne"
+	"github.com/unix-world/smart-fyne/storage"
+	"github.com/unix-world/smart-fyne/storage/repository"
 )
 
 // declare conformance to interfaces

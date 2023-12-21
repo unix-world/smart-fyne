@@ -6,7 +6,7 @@
 package app
 
 import (
-	"fyne.io/fyne/v2"
+	"github.com/unix-world/smart-fyne"
 )
 
 func (app *fyneApp) SendNotification(_ *fyne.Notification) {

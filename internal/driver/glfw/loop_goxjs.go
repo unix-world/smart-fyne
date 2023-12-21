@@ -6,10 +6,10 @@ package glfw
 import (
 	"fmt"
 
-	"fyne.io/fyne/v2"
+	"github.com/unix-world/smart-fyne"
 
-	gl "github.com/fyne-io/gl-js"
-	glfw "github.com/fyne-io/glfw-js"
+	gl "github.com/unix-world/smart-fyne/gl-js"
+	glfw "github.com/unix-world/smart-fyne/glfw-js"
 )
 
 func (d *gLDriver) initGLFW() {

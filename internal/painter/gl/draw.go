@@ -4,9 +4,9 @@ import (
 	"image/color"
 	"math"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/canvas"
-	paint "fyne.io/fyne/v2/internal/painter"
+	"github.com/unix-world/smart-fyne"
+	"github.com/unix-world/smart-fyne/canvas"
+	paint "github.com/unix-world/smart-fyne/internal/painter"
 )
 
 func (p *painter) createBuffer(points []float32) Buffer {

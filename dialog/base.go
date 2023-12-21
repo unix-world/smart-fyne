@@ -1,15 +1,15 @@
 // Package dialog defines standard dialog windows for application GUIs.
-package dialog // import "fyne.io/fyne/v2/dialog"
+package dialog // import "github.com/unix-world/smart-fyne/dialog"
 
 import (
 	"image/color"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/canvas"
-	"fyne.io/fyne/v2/container"
-	col "fyne.io/fyne/v2/internal/color"
-	"fyne.io/fyne/v2/theme"
-	"fyne.io/fyne/v2/widget"
+	"github.com/unix-world/smart-fyne"
+	"github.com/unix-world/smart-fyne/canvas"
+	"github.com/unix-world/smart-fyne/container"
+	col "github.com/unix-world/smart-fyne/internal/color"
+	"github.com/unix-world/smart-fyne/theme"
+	"github.com/unix-world/smart-fyne/widget"
 )
 
 const (

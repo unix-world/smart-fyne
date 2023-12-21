@@ -14,14 +14,14 @@ import (
 	"strconv"
 	"strings"
 
-	_ "github.com/fyne-io/image/ico" // import image encodings
+	_ "github.com/unix-world/smart-fyne/image/ico" // import image encodings
 	"github.com/urfave/cli/v2"
 	"golang.org/x/mod/modfile"
 	"golang.org/x/mod/module"
 
-	"fyne.io/fyne/v2"
+	"github.com/unix-world/smart-fyne"
 
-	"fyne.io/fyne/v2/cmd/fyne/internal/metadata"
+	"github.com/unix-world/smart-fyne/cmd/fyne/internal/metadata"
 )
 
 const (

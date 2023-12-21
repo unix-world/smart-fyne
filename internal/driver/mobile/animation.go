@@ -1,6 +1,6 @@
 package mobile
 
-import "fyne.io/fyne/v2"
+import "github.com/unix-world/smart-fyne"
 
 func (d *mobileDriver) StartAnimation(a *fyne.Animation) {
 	d.animation.Start(a)

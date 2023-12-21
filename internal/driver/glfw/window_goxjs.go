@@ -9,13 +9,13 @@ import (
 	"runtime"
 	"sync"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/driver/desktop"
-	"fyne.io/fyne/v2/internal/driver/common"
-	"fyne.io/fyne/v2/internal/painter/gl"
-	"fyne.io/fyne/v2/internal/scale"
+	"github.com/unix-world/smart-fyne"
+	"github.com/unix-world/smart-fyne/driver/desktop"
+	"github.com/unix-world/smart-fyne/internal/driver/common"
+	"github.com/unix-world/smart-fyne/internal/painter/gl"
+	"github.com/unix-world/smart-fyne/internal/scale"
 
-	"github.com/fyne-io/glfw-js"
+	"github.com/unix-world/smart-fyne/glfw-js"
 )
 
 type Cursor struct {

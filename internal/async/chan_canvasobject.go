@@ -2,7 +2,7 @@
 
 package async
 
-import "fyne.io/fyne/v2"
+import "github.com/unix-world/smart-fyne"
 
 // UnboundedCanvasObjectChan is a channel with an unbounded buffer for caching
 // CanvasObject objects. A channel must be closed via Close method.

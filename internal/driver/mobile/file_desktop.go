@@ -6,9 +6,9 @@ package mobile
 import (
 	"io"
 
-	"fyne.io/fyne/v2"
-	intRepo "fyne.io/fyne/v2/internal/repository"
-	"fyne.io/fyne/v2/storage/repository"
+	"github.com/unix-world/smart-fyne"
+	intRepo "github.com/unix-world/smart-fyne/internal/repository"
+	"github.com/unix-world/smart-fyne/storage/repository"
 )
 
 func existsURI(fyne.URI) (bool, error) {

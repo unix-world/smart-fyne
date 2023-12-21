@@ -3,7 +3,7 @@
 
 package cache
 
-import gl "github.com/fyne-io/gl-js"
+import gl "github.com/unix-world/smart-fyne/gl-js"
 
 // TextureType represents an uploaded GL texture
 type TextureType = gl.Texture

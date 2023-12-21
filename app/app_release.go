@@ -3,6 +3,6 @@
 
 package app
 
-import "fyne.io/fyne/v2"
+import "github.com/unix-world/smart-fyne"
 
 const buildMode = fyne.BuildRelease

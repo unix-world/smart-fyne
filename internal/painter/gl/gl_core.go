@@ -13,7 +13,7 @@ import (
 //	"github.com/go-gl/gl/v3.3-compatibility/gl"
 //--
 
-	"fyne.io/fyne/v2"
+	"github.com/unix-world/smart-fyne"
 )
 
 const (

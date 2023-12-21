@@ -3,7 +3,7 @@ package common
 import (
 	"sync"
 
-	"fyne.io/fyne/v2/internal/async"
+	"github.com/unix-world/smart-fyne/internal/async"
 )
 
 // Window defines common functionality for windows.

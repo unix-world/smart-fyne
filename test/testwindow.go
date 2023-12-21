@@ -1,7 +1,7 @@
 package test
 
 import (
-	"fyne.io/fyne/v2"
+	"github.com/unix-world/smart-fyne"
 )
 
 type testWindow struct {

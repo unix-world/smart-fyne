@@ -1,6 +1,6 @@
 package layout
 
-import "fyne.io/fyne/v2"
+import "github.com/unix-world/smart-fyne"
 
 // SpacerObject is any object that can be used to space out child objects
 type SpacerObject interface {

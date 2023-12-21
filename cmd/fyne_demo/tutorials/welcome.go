@@ -3,11 +3,11 @@ package tutorials
 import (
 	"net/url"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/canvas"
-	"fyne.io/fyne/v2/cmd/fyne_demo/data"
-	"fyne.io/fyne/v2/container"
-	"fyne.io/fyne/v2/widget"
+	"github.com/unix-world/smart-fyne"
+	"github.com/unix-world/smart-fyne/canvas"
+	"github.com/unix-world/smart-fyne/cmd/fyne_demo/data"
+	"github.com/unix-world/smart-fyne/container"
+	"github.com/unix-world/smart-fyne/widget"
 )
 
 func parseURL(urlStr string) *url.URL {

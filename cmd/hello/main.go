@@ -2,9 +2,9 @@
 package main
 
 import (
-	"fyne.io/fyne/v2/app"
-	"fyne.io/fyne/v2/container"
-	"fyne.io/fyne/v2/widget"
+	"github.com/unix-world/smart-fyne/app"
+	"github.com/unix-world/smart-fyne/container"
+	"github.com/unix-world/smart-fyne/widget"
 )
 
 func main() {

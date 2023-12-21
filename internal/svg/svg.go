@@ -16,8 +16,8 @@ import (
 	"github.com/srwiley/oksvg"
 	"github.com/srwiley/rasterx"
 
-	"fyne.io/fyne/v2"
-	col "fyne.io/fyne/v2/internal/color"
+	"github.com/unix-world/smart-fyne"
+	col "github.com/unix-world/smart-fyne/internal/color"
 )
 
 // Colorize creates a new SVG from a given one by replacing all fill colors by the given color.

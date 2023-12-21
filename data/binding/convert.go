@@ -6,7 +6,7 @@ package binding
 import (
 	"fmt"
 
-	"fyne.io/fyne/v2"
+	"github.com/unix-world/smart-fyne"
 )
 
 type stringFromBool struct {

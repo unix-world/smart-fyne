@@ -6,8 +6,8 @@ import (
 	"path/filepath"
 	"sync"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/theme"
+	"github.com/unix-world/smart-fyne"
+	"github.com/unix-world/smart-fyne/theme"
 )
 
 var noAnimations bool // set to true at compile time if no_animations tag is passed

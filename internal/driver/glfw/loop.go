@@ -5,12 +5,12 @@ import (
 	"sync"
 	"time"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/internal/app"
-	"fyne.io/fyne/v2/internal/cache"
-	"fyne.io/fyne/v2/internal/driver/common"
-	"fyne.io/fyne/v2/internal/painter"
-	"fyne.io/fyne/v2/internal/scale"
+	"github.com/unix-world/smart-fyne"
+	"github.com/unix-world/smart-fyne/internal/app"
+	"github.com/unix-world/smart-fyne/internal/cache"
+	"github.com/unix-world/smart-fyne/internal/driver/common"
+	"github.com/unix-world/smart-fyne/internal/painter"
+	"github.com/unix-world/smart-fyne/internal/scale"
 )
 
 type funcData struct {
